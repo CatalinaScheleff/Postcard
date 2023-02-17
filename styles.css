@@ -1,10 +1,11 @@
+* {
+	font-family: "Comic Neue", cursive;
+}
+
 body {
 	background: black;
 }
-* {
-	border: 1px dashed red;
-	min-height: 10px;
-}
+
 .postcard {
 	background: white;
 	width: 400px;
@@ -30,7 +31,7 @@ body {
 }
 .body-left,
 .body-right {
-	padding: x;
+	padding-left: 15px;
 }
 input {
 	border: none;
@@ -42,4 +43,8 @@ input {
 button {
 	background-color: gainsboro;
 	padding: x;
+}
+
+img {
+	padding: 15px;
 }
